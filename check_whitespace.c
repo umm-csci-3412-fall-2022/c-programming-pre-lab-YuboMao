@@ -63,6 +63,6 @@ int is_clean(char const *str) {
 
 if (strlen(cleaned)>0) {
 	free((char*)cleaned);
-
+  }
   return result == 0;
 }
